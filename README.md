@@ -4,7 +4,7 @@
 
 ## О приложениии
 
-Демо [ShowComment]().
+Демо [ShowComment](https://drive.google.com/file/d/131kcwu-2YAQPAdsEQcHfPHcJPnH1THaW/view?usp=sharing).
 Приложение выводит на страницу комментарии пользователей.
 
 * База данных комментариев хранится на сервере.
@@ -27,13 +27,13 @@
 
 ***
 Eng
-## "3dGLO" site of GLO Academy
+## "ShowComment"
 
 Test task
 
 ## About App
 
-Demo [ShowComment]().
+Demo [ShowComment](https://drive.google.com/file/d/131kcwu-2YAQPAdsEQcHfPHcJPnH1THaW/view?usp=sharing).
 
 The application displays user comments on the page.
 

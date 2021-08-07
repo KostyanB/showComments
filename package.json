@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KostyanB/Lomoda"
+    "url": "git+https://github.com/KostyanB/showComments.git"
   },
   "keywords": [],
   "author": "Konstantin Berezko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KostyanB/Lomoda/issues"
+    "url": "https://github.com/KostyanB/showComments/issues"
   },
-  "homepage": "https://github.com/KostyanB/Lomoda#readme",
+  "homepage": "https://github.com/KostyanB/showComments#readme",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "D": "^1.0.0",
