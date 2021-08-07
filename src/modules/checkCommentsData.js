@@ -6,6 +6,7 @@ const checkCommentsData = data => {
     if (!data) {
         const message = 'Ошибка сервера';
         showResultMessage(false, message);
+        mainHeader.textContent = message;
     } else if (data && data.length === 0) {
         mainHeader.textContent = 'На сервере нет комментариев';
     } else {

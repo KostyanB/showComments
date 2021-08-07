@@ -4,7 +4,7 @@ import createCommentData from "./createCommentData";
 import normalizeInputs from "./normalizeInputs";
 
 const handleForm = () => {
-    const userForm = document.querySelector('.user-form'),
+    const userForm = document.querySelector('.user-form');
 
     userForm.addEventListener('input', e => maskInputs(e.target));
     userForm.addEventListener('change', e => normalizeInputs(e.target));
