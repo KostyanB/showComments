@@ -1,0 +1,26 @@
+
+body {
+    font: {
+        family: Roboto;
+        style: normal;
+        weight: 500;
+        size: 36px;
+    }
+    display: grid;
+    grid-template-rows: (2435px auto 290px);
+    @media (max-width: 1440px) {
+        grid-template-rows: (1043px auto 120px);
+    }
+}
+.container {
+    // max-width: 60vw;
+    margin: 0 auto;
+    max-width: 2336px;
+    @media (max-width: 1440px) {
+        max-width: 75vw;
+    }
+}
+
+header, footer {
+    background-color: rgb(45, 49, 54);
+}

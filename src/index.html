@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HHM Test Task</title>
+	<link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="icon" type="image/png" href="images/ico.png">
+</head>
+
+<body>
+	<header>
+		<div class="container header-wrap">
+			<div class="header-wrap__logo">
+				<img class="header-wrap__logo_logo-img" src="images/logo_hh.svg">
+			</div>
+				<div class="header-wrap__show">
+					<button class="header-wrap__show_button"><img src="images/contact_icon1.svg" alt=""></button>
+				</div>
+				<div class="header-wrap__user">
+
+					<form class="header-wrap__user-form user-form" name="comments">
+						<div class="user-form__wrap user-form__wrap-name">
+							<label for="name" class="user-form__label">Имя<span class="user-form__mark">*</span></label>
+							<input class="user-form__name" name="name" type="text" id="user-name" maxlength="30">
+						</div>
+						<div class="user-form__wrap user-form__wrap-email">
+							<label for="email" class="user-form__label">E-mail<span class="user-form__mark">*</span></label>
+							<input class="user-form__email" name="email" type="text" id="user-email" maxlength="30">
+						</div>
+						<div class="user-form__wrap user-form__wrap-comment">
+							<label for="comment" class="user-form__label">Комментарий<span class="user-form__mark">*</span></label>
+							<textarea class="user-form__comment" name="comment" id="user-comment" cols="30" rows="10" maxlength="200"></textarea>
+						</div>
+						<div class="user-form__wrap user-form__wrap-submit">
+							<input class="user-form__submit"  type="submit" value="Записать">
+						</div>
+						<div class="user-form__wrap user-form__wrap-message">
+							<p class="user-form__message"><!--Сообщение юзеру--></p>
+						</div>
+					</form>
+
+				</div>
+		</div>
+	</header>
+	<main>
+		<div class="container main-wrap">
+			<h1 class="container main-wrap__header"><!--Заголовок поля комментариев--></h1>
+			<div class="main-wrap__field commnets-wrapper">
+				<!-- Поле вывода комментариев -->
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container footer-wrap">
+			<div class="footer-wrap__logo">
+				<img class="footer-wrap__logo_logo-img" src="images/logo_hh.png">
+			</div>
+			<div class="footer-wrap__social">
+				<img src="images/btn-fb.svg" alt="fb" class="social__img_fb">
+				<img src="images/btn-vk.svg" alt="vk" class="social__img_vk">
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+</html>

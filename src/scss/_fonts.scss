@@ -1,0 +1,21 @@
+/* шрифты*/
+@font-face {
+    font-family: 'Roboto';
+    src: local("Roboto Bold"), local("RobotoBold"), url("fonts/Roboto-Bold.woff2") format("woff2"), url("fonts/Roboto-Bold.woff") format("woff");
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local("Roboto"), local("RobotoRegular"), url("fonts/Roboto-Regular.woff2") format("woff2"), url("fonts/Geometria-Regular.woff") format("woff");
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local("Roboto"), local("RobotoMedium"), url("fonts/Roboto-Medium.woff2") format("woff2"), url("fonts/Geometria-Medium.woff") format("woff");
+    font-weight: normal;
+    font-display: swap;
+}

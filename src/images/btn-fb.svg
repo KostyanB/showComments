@@ -1,0 +1,20 @@
+<svg id="Btn-_FB" data-name="Btn-  FB" xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2f3338;
+        stroke: #454648;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        font-size: 70px;
+        fill: #656566;
+        font-family: FontAwesome;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="49" cy="49" r="44.5"/>
+  <text id="_" data-name="" class="cls-2" transform="translate(39.216 66.066) scale(0.631)"></text>
+</svg>

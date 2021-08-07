@@ -1,0 +1,83 @@
+$text_color: rgb(109, 115, 123);
+$h1_color: rgb(75, 89, 108);
+$h2_color: rgb(88, 173, 82);
+$back_color: rgb(233, 238, 243);
+$white_color: rgb(255, 255, 255);
+
+// комментарий пользователя
+.comment {
+    display: grid;
+    grid-template-rows: 165px 170px 1fr;
+    min-height: 815px;
+    word-wrap: break-word;
+
+    @media (max-width: 1440px) {
+        grid-template-rows: 72px 82px 1fr;
+        min-height: 360px;
+    }
+
+    &__name,
+    &__email,
+    &__text {
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        text-align: center;
+        word-break: break-word;
+    }
+
+    &__name,
+    &__email {
+        font-size: 68px;
+
+        @media (max-width: 1440px) {
+            font-size: 30px;
+        }
+    }
+
+    &__email,
+    &__text {
+        background-color: $back_color;
+    }
+
+    &__name,
+    &__name.even {
+        align-items: center;
+    }
+
+    &__name {
+        color: $white_color;
+        background-color: $h1_color;
+    }
+
+    &__name.even {
+        background-color: $h2_color;
+    }
+
+    &__email,
+    &__email.even {
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+
+    &__email {
+        color: $text_color;
+    }
+
+    &__email.even {
+        color: $h2_color;
+    }
+
+    &__text {
+        font-size: 60px;
+        color: $text_color;
+        padding-top: 30px;
+        padding-bottom: 10px;
+
+        @media (max-width: 1440px) {
+            font-size: 26px;
+        }
+    }
+}
