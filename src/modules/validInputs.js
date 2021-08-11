@@ -22,8 +22,7 @@ const validInputs = data => {
     }
 
     for (const [name, value] of data) {
-        console.log('skjah');
-		if (name === 'name') {
+	if (name === 'name') {
             (value === '' || value.length < 3) ?
                 setError(form[name], 'correctName') :
                     setOk(form[name], 'correctName');
