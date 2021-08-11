@@ -526,6 +526,22 @@ header, footer {
   }
 }
 
+.comment:nth-of-type(odd) .comment__name {
+  background-color: #4b596c;
+}
+
+.comment:nth-of-type(odd) .comment__email {
+  color: #6d737b;
+}
+
+.comment:nth-of-type(even) .comment__name {
+  background-color: #58ad52;
+}
+
+.comment:nth-of-type(even) .comment__email {
+  color: #58ad52;
+}
+
 .comment__name, .comment__email, .comment__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,34 +570,18 @@ header, footer {
   background-color: #e9eef3;
 }
 
-.comment__name, .comment__name.even {
+.comment__name {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.comment__name {
   color: white;
-  background-color: #4b596c;
 }
 
-.comment__name.even {
-  background-color: #58ad52;
-}
-
-.comment__email, .comment__email.even {
+.comment__email {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
   padding-bottom: 10px;
-}
-
-.comment__email {
-  color: #6d737b;
-}
-
-.comment__email.even {
-  color: #58ad52;
 }
 
 .comment__text {

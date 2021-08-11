@@ -15,6 +15,24 @@ $white_color: rgb(255, 255, 255);
         grid-template-rows: 72px 82px 1fr;
         min-height: 360px;
     }
+    // нечетные
+    &:nth-of-type(odd) {
+        .comment__name {
+            background-color: $h1_color;
+        }
+        .comment__email {
+            color: $text_color;
+        }
+    }
+    // четные
+    &:nth-of-type(even) {
+        .comment__name {
+            background-color: $h2_color;
+        }
+        .comment__email {
+            color: $h2_color;
+        }
+    }
 
     &__name,
     &__email,
@@ -42,32 +60,14 @@ $white_color: rgb(255, 255, 255);
         background-color: $back_color;
     }
 
-    &__name,
-    &__name.even {
-        align-items: center;
-    }
-
     &__name {
+        align-items: center;
         color: $white_color;
-        background-color: $h1_color;
-    }
-
-    &__name.even {
-        background-color: $h2_color;
-    }
-
-    &__email,
-    &__email.even {
-        align-items: flex-end;
-        padding-bottom: 10px;
     }
 
     &__email {
-        color: $text_color;
-    }
-
-    &__email.even {
-        color: $h2_color;
+        align-items: flex-end;
+        padding-bottom: 10px;
     }
 
     &__text {
